@@ -207,7 +207,7 @@
         <!--메모 작성-->
         <scene sceneID="WOZ-5U-uWv">
             <objects>
-                <viewController id="pNN-RV-lgl" sceneMemberID="viewController">
+                <viewController id="pNN-RV-lgl" customClass="MemoFormVC" customModule="Mymemory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sdy-cl-nXJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -244,12 +244,22 @@
                         <rightBarButtonItems>
                             <barButtonItem systemItem="camera" id="r71-Y0-m1E">
                                 <color key="tintColor" systemColor="labelColor"/>
+                                <connections>
+                                    <action selector="pick:" destination="pNN-RV-lgl" id="8bd-0h-n8t"/>
+                                </connections>
                             </barButtonItem>
                             <barButtonItem title="저장" id="hjl-H5-fYx">
                                 <color key="tintColor" systemColor="labelColor"/>
+                                <connections>
+                                    <action selector="save:" destination="pNN-RV-lgl" id="KkC-pp-G0M"/>
+                                </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="contents" destination="wIi-7L-InB" id="zgH-cD-lg5"/>
+                        <outlet property="preview" destination="bNa-kt-Vp5" id="Hd7-49-wEZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gsS-Yu-SdP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
