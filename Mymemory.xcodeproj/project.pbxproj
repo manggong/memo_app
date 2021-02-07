@@ -18,6 +18,7 @@
 		B9B90B1625CFCC1400B80DE9 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1525CFCC1400B80DE9 /* MemoFormVC.swift */; };
 		B9B90B1B25CFCC4100B80DE9 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1A25CFCC4100B80DE9 /* MemoReadVC.swift */; };
 		B9B90B2025CFCC7D00B80DE9 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1F25CFCC7D00B80DE9 /* MemoCell.swift */; };
+		B9B90B2525CFCE6700B80DE9 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B2425CFCE6700B80DE9 /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B9B90B1525CFCC1400B80DE9 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
 		B9B90B1A25CFCC4100B80DE9 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		B9B90B1F25CFCC7D00B80DE9 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		B9B90B2425CFCE6700B80DE9 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B9B90B1525CFCC1400B80DE9 /* MemoFormVC.swift */,
 				B9B90B1A25CFCC4100B80DE9 /* MemoReadVC.swift */,
 				B9B90B1F25CFCC7D00B80DE9 /* MemoCell.swift */,
+				B9B90B2425CFCE6700B80DE9 /* MemoData.swift */,
 			);
 			path = Mymemory;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				B9B90B1125CFCBD900B80DE9 /* MemoListVC.swift in Sources */,
 				B9B90B1B25CFCC4100B80DE9 /* MemoReadVC.swift in Sources */,
 				B976BF2125C2E8E60038725E /* AppDelegate.swift in Sources */,
+				B9B90B2525CFCE6700B80DE9 /* MemoData.swift in Sources */,
 				B9B90B1625CFCC1400B80DE9 /* MemoFormVC.swift in Sources */,
 				B976BF2325C2E8E60038725E /* SceneDelegate.swift in Sources */,
 				B9B90B2025CFCC7D00B80DE9 /* MemoCell.swift in Sources */,
