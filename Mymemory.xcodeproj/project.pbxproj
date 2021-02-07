@@ -14,6 +14,10 @@
 		B976BF2D25C2E8E80038725E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B976BF2B25C2E8E80038725E /* LaunchScreen.storyboard */; };
 		B976BF3825C2E8E90038725E /* MymemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B976BF3725C2E8E90038725E /* MymemoryTests.swift */; };
 		B976BF4325C2E8E90038725E /* MymemoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B976BF4225C2E8E90038725E /* MymemoryUITests.swift */; };
+		B9B90B1125CFCBD900B80DE9 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1025CFCBD900B80DE9 /* MemoListVC.swift */; };
+		B9B90B1625CFCC1400B80DE9 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1525CFCC1400B80DE9 /* MemoFormVC.swift */; };
+		B9B90B1B25CFCC4100B80DE9 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1A25CFCC4100B80DE9 /* MemoReadVC.swift */; };
+		B9B90B2025CFCC7D00B80DE9 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B90B1F25CFCC7D00B80DE9 /* MemoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B976BF3E25C2E8E90038725E /* MymemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MymemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B976BF4225C2E8E90038725E /* MymemoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MymemoryUITests.swift; sourceTree = "<group>"; };
 		B976BF4425C2E8E90038725E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B90B1025CFCBD900B80DE9 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		B9B90B1525CFCC1400B80DE9 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		B9B90B1A25CFCC4100B80DE9 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		B9B90B1F25CFCC7D00B80DE9 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				B976BF2925C2E8E80038725E /* Assets.xcassets */,
 				B976BF2B25C2E8E80038725E /* LaunchScreen.storyboard */,
 				B976BF2E25C2E8E80038725E /* Info.plist */,
+				B9B90B1025CFCBD900B80DE9 /* MemoListVC.swift */,
+				B9B90B1525CFCC1400B80DE9 /* MemoFormVC.swift */,
+				B9B90B1A25CFCC4100B80DE9 /* MemoReadVC.swift */,
+				B9B90B1F25CFCC7D00B80DE9 /* MemoCell.swift */,
 			);
 			path = Mymemory;
 			sourceTree = "<group>";
@@ -255,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B90B1125CFCBD900B80DE9 /* MemoListVC.swift in Sources */,
+				B9B90B1B25CFCC4100B80DE9 /* MemoReadVC.swift in Sources */,
 				B976BF2125C2E8E60038725E /* AppDelegate.swift in Sources */,
+				B9B90B1625CFCC1400B80DE9 /* MemoFormVC.swift in Sources */,
 				B976BF2325C2E8E60038725E /* SceneDelegate.swift in Sources */,
+				B9B90B2025CFCC7D00B80DE9 /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
