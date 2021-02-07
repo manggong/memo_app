@@ -1,6 +1,6 @@
 import UIKit
 
-class Memodata{
+class MemoData{
     var memoIdx: Int?
     var title: String?
     var contents: String?
